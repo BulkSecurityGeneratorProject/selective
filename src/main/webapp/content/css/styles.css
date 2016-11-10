@@ -1,3 +1,17 @@
+.header-bg {
+	background: #004a8b;
+	width: 100%;
+	text-align: right;
+	color: #fff;
+	padding: 10px;
+}
+
+.header-bg a {
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
 .navbar-brand  img {
 	margin-right: 10px;
 	margin-top: -10px;
@@ -6,9 +20,6 @@
 .navbar .navbar-brand {
 	color: #777;
 }
-
- /*    linear-gradient(to right, #DBEAF9 0%,#DBEAF9 85%,#729bc7 85%,#729bc7 100%); */
-
  
 .navbar, .navbar.navbar-default {
 	border-top: 8px solid #DBEAF9;
