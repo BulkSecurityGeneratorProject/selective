@@ -1,0 +1,182 @@
+.navbar-brand  img {
+	margin-right: 10px;
+	margin-top: -10px;
+}
+
+.navbar .navbar-brand {
+	color: #777;
+}
+
+ /*    linear-gradient(to right, #DBEAF9 0%,#DBEAF9 85%,#729bc7 85%,#729bc7 100%); */
+
+ 
+.navbar, .navbar.navbar-default {
+	border-top: 8px solid #DBEAF9;
+	border-bottom: 8px solid #DBEAF9;
+    background-color: #DBEAF9;
+    color: #004a8b;
+}
+
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+    color: #004a8b;
+    border-top: 8px solid #f58559;
+	background-color: #DBEAF9;
+}
+
+.navbar .navbar-nav > li > a {
+    border-top: 8px solid #DBEAF9;
+}
+
+.form-group.is-focused .form-control {
+    outline: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#004a8b), to(#004a8b)), -webkit-gradient(linear, left top, left bottom, from(#D2D2D2), to(#D2D2D2));
+    background-image: -webkit-linear-gradient(#004a8b, #004a8b), -webkit-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: -o-linear-gradient(#004a8b, #004a8b), -o-linear-gradient(#D2D2D2, #D2D2D2);
+    background-image: linear-gradient(#004a8b, #004a8b), linear-gradient(#D2D2D2, #D2D2D2);
+    -webkit-background-size: 100% 2px, 100% 1px;
+    background-size: 100% 2px, 100% 1px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.form-group.is-focused label, .form-group.is-focused label.control-label {
+    color: #004a8b;
+}
+
+.radio input[type=radio]:checked ~ .check {
+    background-color: #004a8b;
+}
+
+.radio input[type=radio]:checked ~ .circle {
+    border-color: #004a8b;
+}
+
+.navbar .dropdown-menu .active > a, .navbar.navbar-default .dropdown-menu .active > a {
+    color: #004a8b;
+}
+.navbar .dropdown-menu .active > a:hover, .navbar.navbar-default .dropdown-menu .active > a:hover, .navbar .dropdown-menu .active > a:focus, .navbar.navbar-default .dropdown-menu .active > a:focus {    
+    color: #004a8b;
+}
+.navbar .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:hover, .navbar .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:focus {
+    color: #004a8b;
+}
+
+
+/* first screen */
+
+.lv-header > h3 {
+    color: #004a8b;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.tpad-20 {
+	padding-top: 20px;
+}
+
+.bpad-5 { 
+	padding-bottom: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.lv-form {
+    border-radius: 5px;
+    border: solid 1px #37a640;
+    padding: 20px;
+}
+
+legend {
+    color: #004a8b;
+    font-weight: bold;
+    padding-top: 25px; 
+}
+
+.lv-form .form-group > label.control-label {
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.img-center {
+    margin: 0px auto;
+}
+
+.btn-blue {
+    background-color: #1268b2 !important;
+}
+
+.btn-orange {
+    background-color: #f58559 !important;
+    color: #fff !important;
+}
+
+.green {
+    color: #37a640 !important;
+}
+
+.orange {
+    color: #f58559;
+}
+
+.lv-chat-header {
+    border-bottom: solid 3px #f58559;
+}
+.lv-chat-header h3{
+    color: #f58559;
+    font-family: "Segoe Print",serif!important;
+    font-size: 2.24rem !important;
+    margin-right: 1rem
+}
+
+.step .step-number{
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 2px solid #929294;
+    border-radius: 50%;
+    color: #929294;
+    height: 60px;
+    width: 60px;
+    padding-top: 18px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 9;
+}
+
+.step.active .step-number {
+    background-color: #729bc7;
+    border: 0px;
+    color: #fff;
+}
+.step-text {
+    font-family: "Segoe Print",serif!important;
+    padding-top: 10px;
+}
+
+.step .step-text {
+    color: #929294;
+}
+
+.step.active .step-text {
+    color: #004a8b;
+}
+.step-text p {
+	font-weight: bold !important;
+}
+
+.step-center-border {
+    margin-left: 160px;
+    margin-right: 160px;
+    position: relative;
+    top: 50px;
+    border-top: 2px solid #929294;
+}
