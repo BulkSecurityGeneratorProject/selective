@@ -1,0 +1,42 @@
+{
+    "appswift": {
+        "continueTheming": true,
+        "shouldCommitCode": true,
+        "scmType": "git",
+        "scmUserName": "kkorada",
+        "scmPwd": "India@123",
+        "scmUrl": "https://github.com/kkorada/selective.git"
+    },
+    "cicdSwift": {
+        "jenkinsProps": {
+            "uploadPlugins": false,
+            "scmCredId": "1478756883702scm",
+            "jenkinsProtocol": "http://",
+            "jenkinsPath": "/",
+            "jenkinsHostName": "localhost",
+            "jenkinsPort": 8080,
+            "jenkinsUserId": "kkorada",
+            "jenkinsPassword": "kkorada",
+            "scm": "git",
+            "codebaseUrl": "https://github.com/kkorada/selective.git",
+            "scmUserId": "kkorada",
+            "scmPwd": "India@123"
+        },
+        "cfProps": {
+            "cfApiEndPoint": "http://api.run.pivotal.io",
+            "cfCredId": "1478756883702cf",
+            "createDbService": true,
+            "cfProfile": "prod",
+            "dbServiceName": "cleardb",
+            "dbServicePlanName": "spark",
+            "noOfInstances": 1,
+            "appMemory": 1024,
+            "appDiskQuota": 1024,
+            "cfOrg": "vgupt007-org",
+            "cfSpace": "development",
+            "cfAppName": "selective",
+            "cfUserID": "kalyan.korada@capgemini.com",
+            "cfPwd": "kalyan2547"
+        }
+    }
+}
